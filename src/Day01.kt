@@ -26,9 +26,7 @@ fun main() {
         }.run(::part1)
     }
 
-    // test if implementation meets criteria from the description, like:
     val testInput = readInput("Day01_test")
     part1(testInput).println()
-
     part2(testInput).println()
 }
